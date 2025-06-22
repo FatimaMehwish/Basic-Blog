@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="toggleTheme">Toggle theme</button>
+    </header>
+    <main>
+        <div id="Home">
+            <div class="homeContent">
+                <h2>Hi, I'm Fatima Mehwish</h2>
+                <p>
+                    I'm Excited to build websites that are both functional and visually appealing and <br>
+                    <span id="moreText">
+                        I'm a committed to honing my skills to deliver high-quality web solutions. <br> The skills I
+                        know are:
+                        a budding web developer with a passion for learning and growing in this field.
+                    </span>
+                </p>
+                <button id="toggleText"> Read&nbsp;more </button>
+            </div>
+            <div class="image">
+                <img src="./IMG-20240509-WA0006.jpg" alt="">
+            </div>
+        </div>
+        <div id="About">
+            <h3>The skills I have learned</h3>
+            <img src="./html.png" alt="">
+            <img src="./css.png" alt="">
+            <img src="./js.png" alt="">
+        </div>
+    </main>
+    <footer class="Footer">
+        <div id="Contact">
+            <h3>Contact us through</h3>
+            <div class="contactLinks">
+                <i class="fa fa-envelope"></i>
+                <p>fatimamehwish@gamil.com</p>
+            </div>
+            <div class="contactLinks">
+                <i class="fa fa-phone"></i>
+                <p>00000000000</p>
+            </div>
+            <div class="contactLinks">
+                <i class="fa-brands fa-linkedin"></i>
+                <p>Fatima Mehwish</p>
+            </div>
+        </div>
+        <div id="commentSection">
+            <input id="inputField" placeholder="Enter comment here">
+            <button id="submit">Submit</button>
+            <div id="outputField"></div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./commentform.js"></script>
+</body>
+
+</html>
