@@ -1,0 +1,17 @@
+Initialization:
+This is a simple blog website which tells about myself. it shows my skills and projects which I made
+and this help you to contact me.
+
+FEATURES:
+1. This website includes ToggleTheme button .
+2. A hero section which tells you about the developer.
+You can choose wheathere to read more about the developer through a read more button or
+just skip this.
+3. The projects buttons which leads you to my projects (based on hmtl, css and javascript).
+4. Section which clearly tells what skills I'm proficient in.
+5. A Footer section which leads you to contact me through different platforms.
+6. In a footer section there's a Comment section for you to leave comments make them edit or delete them 
+after comment sumbission. 
+I have used javascript to make this comment section to be  use able in real life scenario.
+
+Still this website is pending for more features to be done in future.
