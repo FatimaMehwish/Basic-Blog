@@ -105,13 +105,14 @@ header {
     padding: 0 10px;
     font-size: 22px;
 }
-#About li a{
+
+#About li a {
     list-style: none;
     border: 1px solid grey;
     padding: 10px 20px;
-    margin: 30px;
+    margin: 40px;
     text-decoration: none;
-    color:var(--text-color);
+    color: var(--text-color);
     cursor: pointer;
     box-shadow: 0 0 5px 2px grey;
 }
@@ -142,14 +143,14 @@ header {
 
 #commentSection input {
     padding: 15px 20px;
-    border: none;
+    border: 1px solid palevioletred;
     border-radius: 10px;
     outline: none;
 }
 
 #commentSection button {
     padding: 15px 20px;
-    border: none;
+    border: 1px solid palevioletred;
     border-radius: 10px;
     cursor: pointer;
     font-size: 15px;
@@ -167,26 +168,51 @@ header {
     font-size: 22px;
 }
 
-@media screen  and (max-width : 800px) {
-    #toggleTheme{
+#scrollToTop {
+    position: fixed;
+    top: 600px;
+    right: 20px;
+    background-color: rgb(117, 192, 5);
+    color: #ddd;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 800px) {
+    #toggleTheme {
         font-size: 17px;
         padding: 0 5px;
         border-radius: 5px;
     }
-    #Home{
+
+    #Home {
         padding: 10px 0px;
         margin-top: 5px;
     }
-.image img {
-    height: 85px;
-    width: 85px;
-    border-radius:10px;
-}
-#About h3{
-    margin-bottom: 5px;
-    padding:10px 0;
-}
-#Contact h2{
-    padding-top: 16px;
-}
+
+    .image img {
+        height: 85px;
+        width: 85px;
+        border-radius: 10px;
+    }
+
+    #About h3 {
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+
+    #Contact h2 {
+        padding-top: 16px;
+    }
+    #scrollToTop{
+        position: fixed;
+        top: 650px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #ddd;
+        color: Green;
+    }
 }
